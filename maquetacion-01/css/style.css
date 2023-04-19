@@ -21,6 +21,29 @@ body {
 
     background-image: url(/maquetacion-01/img/paven.png);
 }
+/* FORMULARIOS */
+
+input[type='text'],
+input[type='password'],
+select {
+    border: 1px solid #70b231;
+    box-shadow: 0px 0px 2px black;
+    background: white;
+    padding: 1px;
+    margin: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: all 1s;
+    color: grey;
+}
+
+input[type='text']:focus,
+input[type='password']:focus,
+select:focus {
+    border: 1px solid #70b231;
+}
+
+
 
 /* Cabecera */
 #header {
@@ -190,5 +213,17 @@ body {
 }
 
 #aside .widget:last-child{
-    
+    margin-bottom: 20px;
+}
+
+#aside h3{
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: lightgray;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
 }
